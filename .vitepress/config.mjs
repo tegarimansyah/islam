@@ -19,7 +19,7 @@ export default defineConfig({
       { 
         text: 'Interaktif',
         items:[
-          { text: "Memperbaiki Bacaan Al Qur'an", link: '/quran' },
+          { text: "Memperbaiki Bacaan Al Qur'an", link: '/iqro' },
           { text: "Membaca Arti Al Qur'an", link: '/arti-quran' },
           { text: "Membaca Al Matsurat", link: '/al-matsurat' },
           { text: "Merangkai Do'a", link: '/doa' },
@@ -29,8 +29,9 @@ export default defineConfig({
         text: 'Karya Lain',
         items:[
           { text: 'Personal Development', link: 'https://konsisten.id' },
-          { text: 'Business (UMKM)', link: 'https://urusan.id' },
-          { text: 'Technology', link: 'https://bongkar.cloud' },
+          { text: 'Business Consultation', link: 'https://talangemas.id' },
+          { text: 'Business Digital', link: 'https://urusan.id' },
+          { text: 'Cloud Technology', link: 'https://bongkar.cloud' },
         ]
       },
     ],
@@ -43,5 +44,6 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/tegarimansyah', ariaLabel:"Tegar's Github" },
     ]
   },
-  cleanUrls: true
+  cleanUrls: true,
+  srcDir: './src'
 })
