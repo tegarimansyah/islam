@@ -1,0 +1,12 @@
+services:
+  web:
+    build: .
+    image: tegarimansyah/islam
+    networks:
+      - proxy-network
+    ports:
+      - 8080:80
+
+networks:
+  proxy-network:
+    # external: true
