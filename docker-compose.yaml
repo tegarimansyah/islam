@@ -1,9 +1,9 @@
 services:
   web:
     build: .
-    image: tegarimansyah/islam
     networks:
       - proxy-network
+    pull_policy: build
     # Uncomment in local
     # ports:
     #   - 8080:80
